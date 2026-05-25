@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", ui-serif, Georgia, serif;
+  --font-display: "Space Grotesk", sans-serif;
+
+  --color-matte-black: #0D0D0D;
+  --color-espresso: #3D2B1F;
+  --color-warm-beige: #CBBCAE;
+  --color-soft-cream: #FDFCF0;
+  --color-gold-accent: #C5A059;
+  
+  --color-brand-gray: #141414;
+  --color-brand-medium: #242424;
+}
+
+/* Base styling */
+html {
+  scroll-behavior: smooth;
+  background-color: #0D0D0D;
+  color: #FDFCF0;
+}
+
+body {
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  letter-spacing: -0.01em;
+}
+
+/* Custom noise overlay to simulate clean film-grain atmospheric aesthetics */
+.grain-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0D0D0D;
+}
+::-webkit-scrollbar-thumb {
+  background: #1A1A1A;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C5A059;
+}
+
+/* Animations and helpers */
+.shimmer-text {
+  background: linear-gradient(to right, #CBBCAE 20%, #FDFCF0 50%, #CBBCAE 80%);
+  background-size: 200% auto;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: shine 8s linear infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+

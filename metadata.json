@@ -1,0 +1,6 @@
+{
+  "name": "Noir Atelier",
+  "description": "An ultra-premium cinematic experience for Noir Atelier, a modern specialty coffee brand in Moscow combining Japanese minimalism and Scandinavian warmth.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
