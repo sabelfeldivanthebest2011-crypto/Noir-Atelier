@@ -14,7 +14,7 @@ export default function Hero({ onScrollTo }: HeroProps) {
       {/* Absolute Backdrop Layer: Atmospheric Espresso with Deep Dark Warm Shading */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/noir_hero_espresso_1779691247663.png"
+          src="/images/hero-coffee.png"
           alt="Atmospheric Espresso Extraction"
           className="w-full h-full object-cover object-center opacity-40 scale-105 select-none"
           referrerPolicy="no-referrer"

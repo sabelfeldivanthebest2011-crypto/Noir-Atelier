@@ -15,7 +15,7 @@ export const DRINKS: Drink[] = [
     extractionTime: '26 секунд',
     waterTemp: '92.5 °C',
     price: '650 ₽',
-    image: '/src/assets/images/noir_signature_latte_1779691285476.png'
+    image: '/images/drink-noir-sesame-latte.png'
   },
   {
     id: 'kyoto-mist-geisha',
@@ -31,7 +31,7 @@ export const DRINKS: Drink[] = [
     extractionTime: '3 мин 15 сек',
     waterTemp: '89.0 °C',
     price: '1200 ₽',
-    image: '/src/assets/images/noir_bean_packaging_1779691306580.png'
+    image: '/images/drink-kyoto-mist-geisha.png'
   },
   {
     id: 'shoyu-caramel-brew',
@@ -47,7 +47,7 @@ export const DRINKS: Drink[] = [
     extractionTime: '24 часа холодного капельного настаивания',
     waterTemp: '4.0 °C',
     price: '780 ₽',
-    image: '/src/assets/images/noir_hero_espresso_1779691247663.png'
+    image: '/images/hero-coffee.png'
   },
   {
     id: 'smoked-oak-espresso',
@@ -63,7 +63,7 @@ export const DRINKS: Drink[] = [
     extractionTime: '28 секунд',
     waterTemp: '93.0 °C',
     price: '480 ₽',
-    image: '/src/assets/images/noir_hero_espresso_1779691247663.png'
+    image: '/images/hero-coffee.png'
   }
 ];
 

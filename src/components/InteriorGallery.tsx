@@ -95,7 +95,7 @@ export default function InteriorGallery() {
           <div className="lg:col-span-7 space-y-6">
             <div className="relative aspect-[16:9] md:aspect-[16:10] w-full overflow-hidden border border-white/5">
               <img
-                src="/src/assets/images/noir_interior_1779691268035.png"
+                src="/images/interior-01.png"
                 alt={selectedBranch.name}
                 className="w-full h-full object-cover opacity-80"
                 referrerPolicy="no-referrer"
